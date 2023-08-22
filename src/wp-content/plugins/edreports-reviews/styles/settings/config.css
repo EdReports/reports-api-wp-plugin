@@ -1,0 +1,21 @@
+#approved_review_image_container > div {
+  display: flex;
+  vertical-align: top;
+}
+
+#approved_review_image {
+  max-width: 320px;
+  height: auto;
+  padding: 4px;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+
+#clear_approved_review_image_btn {
+  margin-left: 4px;
+  line-height: 1em;
+}
+
+#clear_approved_review_image_btn > span {
+  font-size: 15px;
+}
